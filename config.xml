@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "az.rahatsat.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. rahatsat.az</name>
+    <name>ТЕСТ. Rahatsat.az</name>
 
     <description>
         Pulsuz elanlar sayti
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#49FF00" />
+    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/3c79b3545cc535ef02e1e07a3ac090e8.png" density="xxhdpi" />
         <icon src="res/android/icon/2b740802e23b4b4ec2d5326ebeefbdcc.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/e1c3ccfce4ee3296030165d46a264d4f.png" density="port-hdpi"/>
-        <splash src="res/android/screen/1da4e1d0ae3188dbf9d120fedf7900d9.png" density="port-ldpi"/>
-        <splash src="res/android/screen/6ee09f774f2e17cfd9ae3c00a021050c.png" density="port-mdpi"/>
-        <splash src="res/android/screen/34211691091353b6498a0c7d6d2ae8b2.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/7f139ffff89dcf87de7f43c04e14a97d.png" density="port-hdpi"/>
+        <splash src="res/android/screen/1a52b51641d8cafc8b8ea5f13bc8264d.png" density="port-ldpi"/>
+        <splash src="res/android/screen/72c16922e01e97143168b402206c0050.png" density="port-mdpi"/>
+        <splash src="res/android/screen/813e8c96531fb9bd9aaa0bf14400e5d1.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
